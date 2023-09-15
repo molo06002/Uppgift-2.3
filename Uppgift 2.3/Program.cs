@@ -18,7 +18,7 @@ namespace Uppgift_2_3
             int t = Convert.ToInt32(k);
             int R = t * 1;
             string pris = "Kostnaden blir: ";
-            Console.WriteLine(pris + m + test + R);
+            Console.WriteLine(pris + m + test + R);//
         }
     }
 }
