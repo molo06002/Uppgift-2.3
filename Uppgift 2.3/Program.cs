@@ -12,13 +12,14 @@ namespace Uppgift_2_3
             Console.WriteLine("Hur Många dagar ska du köra?");
            string x = Console.ReadLine();
             int y = Convert.ToInt32(x);
-            int m = 500 * y + 300 - 500;
             Console.WriteLine("Hur många kilometer ska du köra?");
             string k = Console.ReadLine();
             int t = Convert.ToInt32(k);
             int R = t * 1;
+            int m = 300 + (500 * y) - 500 + R;
+            string r = "kr";
             string pris = "Kostnaden blir: ";
-            Console.WriteLine(pris + m + test + R);//
+            Console.WriteLine(pris + m + r + " " + test + R + r);//
         }
     }
 }
